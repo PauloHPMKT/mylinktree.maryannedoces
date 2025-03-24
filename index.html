@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mylinktree | Paulo Devmais</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Devicons -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main class="container">
+      <!-- <div class="slide-controls">
+        <input type="radio" name="slide" id="light" >
+        <input type="radio" name="slide" id="dark" checked>
+        <label for="light" class="slide light">Light</label>
+        <label for="dark" class="slide dark">Dark</label>
+        <div class="slider-tab"></div>
+      </div> -->
+      
+      <div class="profile">
+        <img src="./img/avatar-pic.png" alt="avatar-paulo" />
+        <h3 class="subtitle">Mary Anne doces</h3>
+        <p>Feitos com amor para adoçar seu dia!</p>
+      </div> 
+
+      <div class="social-links">
+        <ul>
+          <li>
+            <a 
+              href="https://www.instagram.com/maryannedoces" 
+              target="_blank" 
+              rel="noreferrer"
+            >
+              <i class="fa-brands fa-instagram"></i>
+              <span>Instagram - Mary Anne doces</span>
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://w.app/maryannedoces" 
+              target="_blank" 
+              rel="noreferrer"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>Faça já sua encomenda e adoce o seu dia</span>
+            </a>
+          </li>
+          <li id="showMailModal">
+            <i class="fa-regular fa-envelope"></i>
+            <span>Envie-me uma mensagem</span>
+          </li>
+        </ul>
+      </div>
+      <div class="send_email">
+        <div class="email_box">
+          <h2>Gostaria de enviar E-mail</h2>
+          <div class="divisor"></div>
+          <span>Quer entrar em contato comigo? é só preencher os campos abaixo!</span>
+          <form action="https://formsubmit.co/halianepessoa20@gmail.com" method="POST">
+            <input type="text" name="name" required placeholder="Insira aqui seu nome" />
+            <input type="email" name="email" required placeholder="Insira aqui seu E-mail" />
+            <textarea cols="30" rows="10" name="message" placeholder="Faça o seu pedido..." required></textarea>
+            <button class="btn_submit" type="submit">
+              <code>
+                Enviar E-mail
+              </code>
+            </button>
+
+            <input type="hidden" name="_subject" value="Nova mensagem Linktree">
+            <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
+            <input type="hidden" name="_captcha" value="false">
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      Developed By &lt; Paulo.Sergio /&gt; 
+      <a 
+        href="https://www.instagram.com/tech_devmais" 
+        target="_blank" 
+        rel="noreferrer"
+      >
+        <code>
+          &ensp;Devmais&ensp;
+        </code>
+      </a>
+      <span id="year"></span>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
