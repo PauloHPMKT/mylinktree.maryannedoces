@@ -32,9 +32,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container .profile > img {
-  width: 120px;
-  height: 120px;
+
+.container .profile img {
+  width: 160px;
+  height: 160px;
   border: 3px solid #9e6803;
   box-shadow: 0 0 3px #eca011;
   padding: 7px;
